@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>UPSC&nbsp;|&nbsp;LBSNAA</title>
+    <link rel="icon" type="image/x-icon" href="../imgs/unnamed.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body
+        {
+            background-image: url(../imgs/blue-curve-frame-template_53876-99024.avif);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .navbar
+        {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-color: rgb(64, 129, 243);
+            /* background-color: transparent; */
+            border-radius: 10px;
+        }
+        .navbar ul
+        {
+            display: flex;
+            justify-content: center;
+        }
+        .navbar ul li 
+        {
+            display: inline-block;
+            margin: 0 18px;
+        }
+        .navbar li a
+        {
+            background: none;
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+        .navbar li a:hover
+        {
+            cursor: pointer;
+            color: black;
+            transform: scale(1.3);
+        }
+        .navbar img
+        {
+            width: 90px;
+            height: 50px;
+        }
+
+        .con{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 95vw;
+            height: 67vh;
+        }
+        #google_translate_element
+        {
+            margin-top: 0;
+        }
+        .container{
+            margin: 20px;
+            height: 450px;
+            width: 500px;
+            border-radius: 20px;
+            /* background-color: rgb(73, 104, 244); */
+            box-shadow: 0px 5px 10px 0px ;
+        }
+        .container .content
+        {
+            display: block;
+        }
+        .container .content img
+        {
+            /* display: flex; */
+            width: 170px;
+            height: 180px;
+            margin-top: 47px;
+            margin-left: 160px;
+        }
+        .p
+        {
+            margin-top: 87px;
+            margin-left: 65px;
+            width:400px;
+            height: 80px;
+            font-family: 'Brush Script MT', cursive;
+            font-size: 20px;
+            
+        }
+        .container .file
+        {
+            
+            margin-left: 222px;
+            /* margin-top: -74px; */
+        }
+        .container .file a
+        {
+            text-decoration: none;
+            color: black;
+        }
+
+        .sign
+        {
+            filter: invert(100);
+        }
+
+        .img img
+        {
+            width: 200px;
+        }
+
+        @media screen and (max-width:780px) {
+            .navbar .right{
+                display: none;
+            }
+        }
+        @media screen and (max-width:780px) {
+            #mobnav 
+            {
+                /* display: block; */
+                display: inline-block;
+                overflow: hidden;
+                background-color: rgb(0,0,33);
+                position: relative;
+                width: 200px;
+            }
+
+            #mobnav #myLinks 
+            {
+                display: none;
+            }
+
+            #mobnav a 
+            {
+                color: white;
+                padding: 14px 16px;
+                text-decoration: none;
+                font-size: 17px;
+                display: block;
+            }
+
+            #mobnav a.icon 
+            {
+                background: black;
+                display: block;
+                position: absolute;
+                right: 0;
+                top: 0;
+            }
+
+            #mobnav a:hover 
+            {
+                background-color: #ddd;
+                color: black;
+            }
+
+            .active 
+            {
+                background-color: none;
+                color: white;
+            }
+            #btns
+            {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+            }
+        }
+        .mobnav 
+        {
+            display: none;
+        }
+        @media screen and (max-width:550px) {
+            #container
+            {
+                width: 400px;
+            }
+            .container .content img
+            {
+                /* display: flex; */
+                width: 70px;
+            }
+            .p
+            {
+                width:200px;
+                height: 150px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div class="img"><img src="../imgs/signature.png" class="sign"></div>
+        <div class="right">
+            <ul>
+                <li class="item"><a href="/">HOME</a></li>
+                <li class="item"><a href="/material">MATERIAL</a></li>
+                <li class="item"><a href="/sand">SYLLABUS & PATTERN</a></li>
+            </ul>
+        </div>
+        <div><img src="../imgs/20-03-41-348_512.webp"></div>
+        <div class="mobnav" id="mobnav">
+            <a href="/" class="active">Home</a>
+            <div id="myLinks">
+              <a href="/material">MATERIAL</a>
+              <a href="/sand">SYLLABUS & PATTERN</a>
+            </div>
+            <a class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+        </div>
+    
+        <script>
+            function myFunction() {
+              var x = document.getElementById("myLinks");
+              if (x.style.display === "block") {
+                x.style.display = "none";
+              } else {
+                x.style.display = "block";
+              }
+            }
+        </script>
+    </div>
+    
+    <div class="con" id="con">
+        <div id="google_translate_element"></div>
+        <div class="container" id="container">
+            <div class="content">
+                <!-- <img src="ncert-logo.png"> -->
+            </div>
+            <div class="p">
+                Click Below To DOWNLOAD 6th to 10th OLD NCERT's all subjects and UPSC related material 
+            </div><br><br>
+            <div class="file">
+                <a href="https://drive.google.com/drive/folders/1yj0kgQylk_oeBX2LYBw3bjXQAyON1VvC?usp=sharing"><i class="fa fa-download" style="font-size:70px"></i></a>
+            </div>
+            <p style="margin-left: 100px;">copyright <sup>&copy;</sup> All Rights are Reserved.</p>
+        </div>
+    </div>
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement(
+                {pageLanguage: 'en'},
+                'google_translate_element'
+            );
+        }
+    </script>
+
+    <script type="text/javascript"
+            src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
+    </script>
+    
+</body>
+</html>
