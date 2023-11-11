@@ -12,16 +12,16 @@ app.use('/views', express.static('views'));
 app.set('/views',__dirname,'views')
 
 app.get('/',(req,res)=>{
-    res.sendFile(path.join(__dirname,'../upsc','views','home.html'));
+    res.sendFile(path.join(__dirname,'/views','home.html'));
 })
 app.get('/home',(req,res)=>{
-    res.sendFile(path.join(__dirname,'../upsc','views','home.html'));
+    res.sendFile(path.join(__dirname,'/views','home.html'));
 })
 app.get('/material',(req,res)=>{
-    res.sendFile(path.join(__dirname,'../upsc','views','ncert.html'));
+    res.sendFile(path.join(__dirname,'/views','ncert.html'));
 })
 app.get('/sand',(req,res)=>{
-    res.sendFile(path.join(__dirname,'../upsc','views','syllabus_pattern.html'));
+    res.sendFile(path.join(__dirname,'/views','syllabus_pattern.html'));
 })
 
 app.listen(port, () => {
