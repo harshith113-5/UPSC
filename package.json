@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "express": "^4.18.2",
+    "node": "^21.1.0",
+    "nodemon": "^3.0.1"
+  },
+  "name": "upsc",
+  "version": "1.0.0",
+  "description": "lbsnaa",
+  "main": "node app.js",
+  "devDependencies": {},
+  "scripts": {
+    "start":"node app.js"
+  },
+  "author": "harshith",
+  "license": "MIT"
+}
