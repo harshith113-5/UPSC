@@ -228,6 +228,52 @@
             align-items: center;
             padding: 40px;
         }
+        .con .s #p
+        {
+            font-size: 36px;
+        }
+        @media screen and (max-width:452px){
+            #hom #p{
+                font-size: 12px;
+            }
+            /* #con{
+                width: 200px;
+            } */
+            #con h1{
+                font-size: 16px;
+            }
+            #con #s #p{
+                font-size: 20px;
+            }
+            #con #s #i
+            {
+                display: none;
+            }
+        }
+        @media screen and (max-width:435px){
+            .img img
+            {
+                width: 120px;
+            }
+            .navbar img
+            {
+                width: 60px;
+                height: 50px;
+            }
+            .navbar
+            {
+                justify-content: start;
+            }
+            #container
+            {
+                width: 300px;
+            }
+            .container .file
+            {
+                
+                margin-left: 122px;
+            }
+        }
     </style>
 </head>
 <body>
@@ -384,11 +430,11 @@
         </div>
     </div>
 
-    <div class="con">
+    <div class="con" id="con">
         <h1 style="color: black;">Any Quries Contact &nbsp;<span style="color: rgb(64, 129, 243);">Me</span>&nbsp;At</h1>
-        <div class="s" style="display: flex;">
-            <div class="i"><i class="material-icons" style="font-size:32px; color:rgb(64, 129, 243);">send</i></div> 
-            <p style="font-size: 32px;">kompala.harshit@gmail.com</p>
+        <div class="s" style="display: flex;" id="s">
+            <div class="i" id="i"><i class="material-icons" style="font-size:32px; color:rgb(64, 129, 243);">send</i></div> 
+            <p id="p">kompala.harshit@gmail.com</p>
         </div>
     </div>
     
